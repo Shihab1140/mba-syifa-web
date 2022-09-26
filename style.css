@@ -1,0 +1,229 @@
+body {
+  background: #fedba2;
+}
+.bg-awal {
+  position: relative;
+  background: #000 url('WhatsApp Image 2022-09-22 at 22.19.57.jpeg') center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.btn a:hover {
+  color: white;
+}
+.isi-awal {
+  color: white;
+  text-align: start;
+  margin: 20px;
+}
+.isi-awal h1 span {
+  color: #fedba2;
+}
+.isi-awal p {
+  font-size: 10px;
+}
+.bg-dua {
+  background: white;
+  text-align: start;
+  display: flex;
+}
+.logo-2 {
+  margin-top: 0px;
+}
+.bg-dua .h3 {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: -20px;
+  float: right;
+}
+.h3 h3 {
+  font-size: 18px;
+  margin-top: -100px;
+}
+.bg-dua .h3 p {
+  font-size: 10px;
+}
+.bg-tiga {
+  position: relative;
+  background: #000 url('WhatsApp Image 2022-09-22 at 22.19.57.jpeg') center center;
+  width: 100%;
+  height: 100%1;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.bg-tiga h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.bg-tiga h6 {
+  font-size: 10px;
+}
+.nomer-2 {
+  font-size: 8px;
+  margin-left: 10px;
+}
+.nomer-2 .no-2 {
+  margin-left: 30px;
+}
+.nomer-2 .no-4 {
+  margin-left: 10px;
+}
+.bg-empat {
+  position: relative;
+  background: #000 url('WhatsApp Image 2022-09-26 at 12.37.50.jpeg') center center;
+  width: 100%;
+  height: 100%1;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.bg-empat .text-1 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #ffdca2;
+}
+.bg-empat h6 {
+  color: gray;
+  font-size: 10px;
+}
+.bg-empat h3 span {
+  color: black;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #fedba2;
+}
+.footer a button {
+  border-radius: 20px;
+  border-style: none;
+  background: black;
+  color: #fedba2;
+}
+@media (min-width: 768px) {
+  .isi-awal {
+    color: white;
+    text-align: start;
+    margin: 200px 200px;
+  }
+  .isi-awal h1 {
+    font-size: 50px;
+  }
+  .isi-awal h1 span {
+    color: #fedba2;
+  }
+  .isi-awal p {
+    font-size: 20px;
+  }
+  .bg-dua {
+    background: white;
+    text-align: start;
+    display: flex;
+    padding: 50px;
+  }
+  .logo-2 {
+    width: 200px;
+    margin-top: 0px;
+  }
+  .bg-dua .h3 {
+    margin-top: -120px;
+    margin-left: 225px;
+  }
+  .h3 h3 {
+    font-size: 40px;
+  }
+  .bg-dua .h3 p {
+    font-size: 20px;
+  }
+  .bg-tiga {
+    position: relative;
+    background: #000 url('WhatsApp Image 2022-09-22 at 22.19.57.jpeg') center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    padding: 200px;
+  }
+  .bg-tiga img {
+    width: 250px;
+  }
+  .bg-tiga h3 {
+    font-size: 50px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+  }
+  .bg-tiga h6 {
+    font-size: 20px;
+  }
+  .nomer-1 {
+    font-size: 50px;
+  }
+  .nomer-2 {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .nomer-2 .no-1 {
+    margin-left: 30px;
+  }
+  .nomer-2 .no-2 {
+    margin-left: 60px;
+  }
+  .nomer-2 .no-3 {
+    margin-left: 20px;
+  }
+  .nomer-2 .no-4 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .bg-empat {
+    position: relative;
+    background: #000 url('WhatsApp Image 2022-09-26 at 12.37.50.jpeg') center center;
+    width: 100%;
+    height: 100%1;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    padding: 200px;
+  }
+  .bg-empat .gambar-akhir {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .bg-empat .text-1 {
+    font-size: 50px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+    color: #ffdca2;
+  }
+  .bg-empat h6 {
+    color: gray;
+    font-size: 20px;
+  }
+  .bg-empat h3 span {
+    color: black;
+  }
+}
+/*css3 design scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffdca2;
+}
